@@ -25,7 +25,7 @@ public class TestBase {
 		}
 	}
 	
-	public static void inititate() {
+	public static void initiate() {
      String browserName = prop.getProperty("browser");
      if(browserName.equals("chrome")) {
     	 System.setProperty("webdriver.chrome.driver", "F:\\selenium\\chromedriver_win32");
