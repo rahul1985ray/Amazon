@@ -15,7 +15,7 @@ public class AmazonPantry extends TestBase {
 	@FindBy(linkText = "Pantry")
 	WebElement pantryLink;
 
-	@FindBy(css = ".nav-logo-link")
+	@FindBy(id = "searchDropdownBox")
 	WebElement logo;
 
 //now defining actions on web elements
@@ -28,7 +28,7 @@ public class AmazonPantry extends TestBase {
 	public boolean Image() {
 		return logo.isDisplayed();
 	}
-	
+
 	public void PantryPage() {
 		pantryLink.click();
 	}
