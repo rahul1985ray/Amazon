@@ -9,10 +9,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class TestBase {
 
-	static WebDriver driver;
-	static Properties prop;
+	public static WebDriver driver;
+	public static Properties prop;
 
-	TestBase() {
+	public TestBase() {
 
 		prop = new Properties();
 		try {
